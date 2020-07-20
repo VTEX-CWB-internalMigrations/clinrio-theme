@@ -12,19 +12,12 @@
       "flex-layout.row#shelfTwo",
       "newsletter",
       "flex-layout.row#qualityImage",
-      "rich-text#whatsapp",
-      "rich-text#gotomanual"
+      "rich-text#whatsapp"
     ]
-  },
-  "rich-text#gotomanual": {
-    "props": {
-      "text": "[Manual do Comprador](http://ciashop.com.br/thuleteste/ 'Link para o manual do comprador Thule')",
-      "blockClass": "footerManualLink"
-    }
   },
   "rich-text#whatsapp": {
     "props": {
-      "text": "[![Whatsapp Icon](https://thulestore.vteximg.com.br/arquivos/whatsappIcon.png)](https://api.whatsapp.com/send?phone=5512981430542)",
+      "text": "[![Whatsapp Icon](https://clinrio.vteximg.com.br/arquivos/whatsappClin.png)](https://api.whatsapp.com/send?phone=5521967834156)",
       "blockClass": "whatsappIcon"
     }
   },

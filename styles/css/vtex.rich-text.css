@@ -4,11 +4,11 @@
   justify-content: center;
 }
 .container--whiteLetter .paragraph, .container--whiteLetter .link{
-  color: #fff;
+  color: #275580;
   font-size: 14px;
 }
 .container--whiteLetterRights .paragraph{
-  color: #fff;
+  color: #275580;
   display: flex;
   align-items: center;
 }

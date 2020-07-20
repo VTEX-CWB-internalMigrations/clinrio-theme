@@ -1,12 +1,12 @@
 .label , .profile{
-    color: #fff;
+    color: #434343;
 }
 .profileIcon{
-    color: #fff;
+    color: #434343;
 }
 @media only screen and (min-width: 640px) {
     .container{
         padding-right: 10px;
-        border-right: 1px solid #fff;
+        border-right: 1px solid #434343;
     }
 }

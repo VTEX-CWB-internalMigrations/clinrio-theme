@@ -13,14 +13,14 @@
   },
   "header-layout.desktop": {
     "children": [
-      "header-row#1-desktop"
+      "header-row#1-desktop",
+      "header-row#2-desktop"
     ]
   },
   "header-row#1-desktop": {
     "children": [
       "header-spacer",
       "logo#desktop",
-      "vtex.menu@2.x:menu#category-menu",
       "header-spacer",
       "header-spacer",
       "login",
@@ -32,6 +32,14 @@
     "props": {
       "sticky": true,
       "blockClass": "main-header"
+    }
+  },
+  "header-row#2-desktop":{
+    "children":[
+      "vtex.menu@2.x:menu#category-menu"
+    ],
+    "props":{
+      "blockClass": "menu-row"
     }
   },
   "vtex.menu@2.x:menu#faqMenu": {
@@ -120,7 +128,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://thulestore.vteximg.com.br/arquivos/thuleLogo.jpg",
+      "url": "/assets/clinrio-logo.png",
       "width": "180"
     }
   },
