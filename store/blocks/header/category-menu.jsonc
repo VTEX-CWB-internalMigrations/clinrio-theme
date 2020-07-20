@@ -1,0 +1,242 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "children": [
+      "menu-item#category-racks",
+      "menu-item#category-children",
+      "menu-item#category-backpack"
+    ],
+    "props": {
+      "blockClass": "mainMenu"
+    }
+  },
+  // RACKS, SUPORTES E BAGAGEIROS INÍCIO
+  "menu-item#category-racks": {
+    "props": {
+      "id": "menu-item-category-racks",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Racks",
+        "text": "RACKS, SUPORTES E BAGAGEIROS"
+      },
+      "blockClass": "racksMenu"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#racks"
+    ]
+  },
+  "vtex.menu@2.x:submenu#racks": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "flex-layout.row#entireSubmenu"
+    ]
+  },
+  "flex-layout.row#entireSubmenu": {
+    "children": [
+      "flex-layout.col#rackOne",
+      "flex-layout.col#rackTwo",
+      "flex-layout.col#rackThree",
+      "flex-layout.col#rackFour"
+    ],
+    "props": {
+      "blockClass": "menuRow"
+    }
+  },
+  "flex-layout.col#rackOne": {
+    "children": [
+      "vtex.menu@2.x:menu#submenuMain"
+    ],
+    "props": {
+      "blockClass": "rackOne"
+    }
+  },
+  "flex-layout.col#rackTwo": {
+    "children": [
+      "vtex.menu@2.x:menu#submenuMain"
+    ],
+    "props": {
+      "blockClass": "rackTwo"
+    }
+  },
+  "flex-layout.col#rackThree": {
+    "children": [
+      "vtex.menu@2.x:menu#submenuMain"
+    ],
+    "props": {
+      "blockClass": "rackThree"
+    }
+  },
+  "flex-layout.col#rackFour": {
+    "children": [
+      "vtex.menu@2.x:menu#submenuMain"
+    ],
+    "props": {
+      "blockClass": "rackFour"
+    }
+  },
+  "vtex.menu@2.x:menu#submenuMain": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submenuMain"
+    }
+  },
+  // RACKS, SUPORTES E BAGAGEIROS FIM
+  // ATIVIDADES COM CRIANÇAS INÍCIO
+  "menu-item#category-children": {
+    "props": {
+      "id": "menu-item-category-children",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "ATIVIDADES COM CRIANÇAS",
+        "text": "ATIVIDADES COM CRIANÇAS"
+      },
+      "blockClass": "childrenMenu"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#children"
+    ]
+  },
+  "vtex.menu@2.x:submenu#children": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "flex-layout.row#entireSubmenu2"
+    ]
+  },
+  "flex-layout.row#entireSubmenu2": {
+    "children": [
+      "flex-layout.col#childrenOne",
+      "flex-layout.col#childrenTwo",
+      "flex-layout.col#childrenThree",
+      "flex-layout.col#childrenFour"
+    ],
+    "props": {
+      "blockClass": "menuRow"
+    }
+  },
+  "flex-layout.col#childrenOne": {
+    "children": [
+      "vtex.menu@2.x:menu#submenuMain"
+    ],
+    "props": {
+      "blockClass": "childrenOne"
+    }
+  },
+  "flex-layout.col#childrenTwo": {
+    "children": [
+      "vtex.menu@2.x:menu#submenuMain"
+    ],
+    "props": {
+      "blockClass": "childrenTwo"
+    }
+  },
+  "flex-layout.col#childrenThree": {
+    "children": [
+      "vtex.menu@2.x:menu#submenuMain"
+    ],
+    "props": {
+      "blockClass": "childrenThree"
+    }
+  },
+  "flex-layout.col#childrenFour": {
+    "children": [
+      "vtex.menu@2.x:menu#submenuMain"
+    ],
+    "props": {
+      "blockClass": "childrenFour"
+    }
+  },
+  // ATIVIDADES COM CRIANÇAS INÍCIO
+  // MALAS E MOCHILAS
+  "menu-item#category-backpack": {
+    "props": {
+      "id": "menu-item-category-backpack",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "MALAS E MOCHILAS",
+        "text": "MALAS E MOCHILAS"
+      },
+      "blockClass": "backpackMenu"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#backpack"
+    ]
+  },
+  "vtex.menu@2.x:submenu#backpack": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "flex-layout.row#entireSubmenu3"
+    ]
+  },
+  "flex-layout.row#entireSubmenu3": {
+    "children": [
+      "flex-layout.col#backpackOne",
+      "flex-layout.col#backpackTwo",
+      "flex-layout.col#backpackThree",
+      "flex-layout.col#backpackFour",
+      "flex-layout.col#backpackFive"
+    ],
+    "props": {
+      "blockClass": "menuRow"
+    }
+  },
+  "flex-layout.col#backpackOne": {
+    "children": [
+      "vtex.menu@2.x:menu#submenuMain"
+    ],
+    "props": {
+      "blockClass": "backpackOne"
+    }
+  },
+  "flex-layout.col#backpackTwo": {
+    "children": [
+      "vtex.menu@2.x:menu#submenuMain"
+    ],
+    "props": {
+      "blockClass": "backpackTwo"
+    }
+  },
+  "flex-layout.col#backpackThree": {
+    "children": [
+      "vtex.menu@2.x:menu#submenuMain"
+    ],
+    "props": {
+      "blockClass": "backpackThree"
+    }
+  },
+  "flex-layout.col#backpackFour": {
+    "children": [
+      "vtex.menu@2.x:menu#submenuMain"
+    ],
+    "props": {
+      "blockClass": "backpackFour"
+    }
+  },
+  "flex-layout.col#backpackFive": {
+    "children": [
+      "vtex.menu@2.x:menu#submenuMain"
+    ],
+    "props": {
+      "blockClass": "backpackFive"
+    }
+  }
+}

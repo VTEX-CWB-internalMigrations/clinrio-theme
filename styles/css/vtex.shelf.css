@@ -1,0 +1,44 @@
+.arrowLeft{
+    left: -35px;
+    padding: 10px;
+    background: #f1f1f1;
+    top: 49%;
+}
+
+.arrowRight{
+    right: -35px;
+    padding: 10px;
+    background: #f1f1f1;
+    top: 49%;
+}
+
+.relatedProducts{
+    margin-bottom: 80px;
+    background: #f0f0f0;
+    padding: 20px;
+}
+
+.relatedProducts .title{
+    width: 15%;
+    font-size: 20px;
+    background: #000;
+    color: #fff;
+    padding: 11px;
+    margin: 0px auto;
+}
+
+.shelfContentContainer{
+    height: 100%;
+}
+
+@media only screen and (max-width: 640px) {
+    .arrowLeft{
+        left: 0px;
+        top: 25%;
+    }
+    
+    .arrowRight{
+        right: 0px;
+        top: 25%;
+    }
+}

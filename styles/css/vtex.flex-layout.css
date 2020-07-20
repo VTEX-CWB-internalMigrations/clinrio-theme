@@ -1,0 +1,218 @@
+.flexRow--deals {
+  background-color: #a7afbd;
+  padding: 14px 0px;
+}
+
+.flexRow--deals .stretchChildrenWidth {
+  align-items: center;
+}
+
+.flexRow--deals .flexCol {
+  align-items: center;
+}
+
+.flexCol--filterCol {
+  max-width: 500px;
+  min-width: 230px;
+}
+
+.flexCol--productCountCol {
+  align-items: flex-start;
+}
+
+.flexCol--orderByCol {
+  align-items: flex-end;
+}
+
+.flexCol--orderByMobileCol {
+  width: 42%;
+}
+
+.flexCol--filterMobileCol {
+  width: 38%;
+}
+
+.flexCol--switcherMobileCol {
+  width: 20%;
+}
+
+.flexRow--miniImage , .flexRow--medImage{
+  padding: 20px 0px;
+}
+
+.flexRow--imageBottom{
+  padding: 20px 0px;
+}
+
+.flexRow--main-footer{
+  background: #262626;
+  color: #ffffff;
+  padding: 40px 0px;
+  margin-top: 30px;
+}
+.flexRow--storeRights{
+  background: #000;
+}
+
+.flexRow--shelfMaster{
+  background: #f1f1f1;
+  padding: 10px;
+}
+
+.flexCol--flexDrawer{
+  position: absolute;
+  left: 0;
+}
+
+.flexColChild--rackOne::before{
+  content: "";
+  background: url(https://thulestore.vteximg.com.br/arquivos/bicycleRack.png);
+  width: 80px;
+  height: 50px;
+  display: block;
+  margin: 0px auto;
+}
+
+.flexColChild--rackTwo::before{
+  content: "";
+  background: url(https://thulestore.vteximg.com.br/arquivos/mainRack.png);
+  width: 80px;
+  height: 50px;
+  display: block;
+  margin: 0px auto;
+}
+
+.flexColChild--rackThree::before{
+  content: "";
+  background: url(https://thulestore.vteximg.com.br/arquivos/baggageImg.png);
+  width: 80px;
+  height: 50px;
+  display: block;
+  margin: 0px auto;
+}
+
+.flexColChild--rackFour::before{
+  content: "";
+  background: url(https://thulestore.vteximg.com.br/arquivos/aquaticRack.png);
+  width: 80px;
+  height: 50px;
+  display: block;
+  margin: 0px auto;
+}
+
+.flexColChild--childrenOne::before{
+  content: "";
+  background: url(https://thulestore.vteximg.com.br/arquivos/babyCart.png);
+  width: 80px;
+  height: 50px;
+  display: block;
+  margin: 0px auto;
+}
+
+.flexCol--childrenTwo::before{
+  content: "";
+  background: url(https://thulestore.vteximg.com.br/arquivos/motorRack.png);
+  width: 80px;
+  height: 67px;
+  display: block;
+  margin: 0px auto;
+}
+
+.flexCol--childrenThree::before{
+  content: "";
+  background: url(https://thulestore.vteximg.com.br/arquivos/kidsRack.png);
+  width: 80px;
+  height: 67px;
+  display: block;
+  margin: 0px auto;
+}
+
+.flexCol--childrenFour::before{
+  content: "";
+  background: url(https://thulestore.vteximg.com.br/arquivos/backsBaby.png);
+  width: 80px;
+  height: 67px;
+  display: block;
+  margin: 0px auto;
+}
+
+.flexCol--childrenFour::before{
+  content: "";
+  background: url(https://thulestore.vteximg.com.br/arquivos/backsBaby.png);
+  width: 80px;
+  height: 67px;
+  display: block;
+  margin: 0px auto;
+}
+
+.flexCol--backpackOne::before{
+  content: "";
+  background: url(https://thulestore.vteximg.com.br/arquivos/allBackpacks1.png);
+  width: 70px;
+  height: 67px;
+  display: block;
+  margin: 0px auto;
+  background-repeat: no-repeat;
+}
+
+.flexCol--backpackTwo::before{
+  content: "";
+  background: url(https://thulestore.vteximg.com.br/arquivos/oneBackpacks1.png);
+  width: 70px;
+  height: 67px;
+  display: block;
+  margin: 0px auto;
+  background-repeat: no-repeat;
+}
+
+.flexCol--backpackThree::before{
+  content: "";
+  background: url(https://thulestore.vteximg.com.br/arquivos/bicycleComplete.png);
+  width: 70px;
+  height: 67px;
+  display: block;
+  margin: 0px auto;
+  background-repeat: no-repeat;
+}
+
+.flexCol--backpackFour::before{
+  content: "";
+  background: url(https://thulestore.vteximg.com.br/arquivos/computerIcon.png);
+  width: 70px;
+  height: 67px;
+  display: block;
+  margin: 0px auto;
+  background-repeat: no-repeat;
+}
+
+/*PERGUNTAS FREQUENTES*/
+.flexRowContent--questionTitle{
+  margin-top: 30px;
+}
+.flexRow--questionAnswer{
+  display: none;
+}
+.flexCol--questionCol:hover .flexRow--questionAnswer{
+  display: block;
+}
+.flexCol--questionCol{
+  max-width: 1000px;
+}
+
+/* FIM PERGUNTAS FREQUENTES*/
+
+.flexCol--backpackFive::before{
+  content: "";
+  background: url(https://thulestore.vteximg.com.br/arquivos/camIcon.png);
+  width: 70px;
+  height: 67px;
+  display: block;
+  margin: 0px auto;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 640px) {
+  .flexRow--miniImage , .flexRow--imageBottom , .flexRow--sliderFlex{
+    display: none
+  }
+}

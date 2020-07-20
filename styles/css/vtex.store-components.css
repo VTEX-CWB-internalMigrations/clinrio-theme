@@ -1,0 +1,148 @@
+.notificationBarContainer {
+  background-color: #E6F1E6;
+  color: #03034E;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.infoCardContainer--info-card-home {
+  max-width: 1520px;
+  margin: 0 auto;
+  background-color: #E6F1E6;
+  padding: 0px;
+}
+
+.newsletter {
+  background-color: #000;
+  max-width: 1528px;
+  margin: 0 auto;
+}
+
+.newsletter .container {
+  padding: 60px 10px;
+}
+
+.specificationsTitle{
+  display: none
+}
+
+.label {
+  color: #fff;
+  font-size: 26px;
+}
+
+.inputGroup {
+  padding-bottom: 4px;
+  display: flex;
+  color: #fff;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
+  color: #fff;
+  font-size: 16px;
+}
+
+.inputGroup :global(.vtex-button) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  margin-right: -24px;
+}
+
+.buttonContainer {
+  padding-top: 0px;
+}
+
+.imageElement--storePrint {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.skuSelectorContainer {
+  margin: 1rem 0;
+}
+.logoImage{
+  width: 300px;
+}
+.newsletter .container{
+  padding: 20px;
+}
+
+.newsletter .label{
+  font-size: 17px;
+}
+
+.newsletter .inputGroup{
+  border-bottom: 0px
+}
+
+.newsletter .inputGroup .buttonContainer{
+  padding-top: 10px;
+}
+
+.newsletter .confirmationText , .newsletter .confirmationTitle{
+  color: #fff;
+}
+.newsletter {
+  background-color: #000;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.shippingContainer :global(.vtex-input__label){
+  font-size: 0px;
+}
+.shippingContainer :global(.vtex-input__label)::before{
+  content: "Calcule o Frete";
+  font-size: 15px;
+}
+
+.imageElement--mediumImage{
+  margin: 0px auto;
+  display: block;
+}
+
+@media only screen and (min-width: 640px) {
+
+
+  .resultsList{
+    max-width: 300px;
+    right: -19px;
+    position: absolute;
+    left: auto;
+  }
+
+  .label {
+    font-size: 40px;
+  }
+
+  .logoImage{
+    width: 300px;
+    min-width: 200px;
+  }
+
+  .searchBarContainer {
+    max-width: 265px;
+  }
+  
+  .infoCardContainer--info-card-home .infoCardTextContainer {
+    width: 30%;
+  }
+
+  .infoCardContainer--info-card-home .infoCardImageContainer {
+    width: 70%;
+  }
+
+  .imageElement--storePrint {
+    margin-bottom: 0px;
+    max-height: 600px;
+  }
+
+}

@@ -1,0 +1,22 @@
+{
+    "store.custom#reposition": {
+        "blocks": [
+            "flex-layout.row#reposition"
+        ]
+    },
+    "flex-layout.row#reposition": {
+        "children": [
+            "flex-layout.col#reposition"
+        ]
+    },
+    "flex-layout.col#reposition": {
+        "children": [
+            "rich-text#googleForms"
+        ]
+    },
+    "rich-text#googleForms": {
+        "props": {
+            "text": "Seu Iframe Aqui"
+        }
+    }
+}
