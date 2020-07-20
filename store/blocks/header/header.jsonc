@@ -50,8 +50,8 @@
   },
   "image#faqImage": {
     "props": {
-      "src": " https://thulestore.vteximg.com.br/arquivos/faqMenu.png",
-      "blockClass": "iconSearch"
+      "src": " https://clinrio.vteximg.com.br/arquivos/menuClin.png",
+      "blockClass": "iconMenu"
     }
   },
   "menu-item#faqItem": {
@@ -91,7 +91,7 @@
   },
   "image#searchIcon": {
     "props": {
-      "src": " https://thulestore.vteximg.com.br/arquivos/iconSearch.png",
+      "src": " https://clinrio.vteximg.com.br/arquivos/searchClin.png",
       "blockClass": "iconSearch"
     }
   },
