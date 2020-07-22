@@ -8,7 +8,7 @@
   font-size: 14px;
 }
 .container--whiteLetterRights .paragraph{
-  color: #275580;
+  color: #fff;
   display: flex;
   align-items: center;
 }
@@ -93,6 +93,14 @@
   right: -75px;
   top: -2px;
   background-size: 50px;
+}
+
+.container--whiteLetter .paragraph--whiteLetterRights{
+  color: #fff !important;
+}
+
+.image--whiteLetterRights{
+  margin-left: 2px;
 }
 
 .container--backpacksMobileMenu .paragraph::before{

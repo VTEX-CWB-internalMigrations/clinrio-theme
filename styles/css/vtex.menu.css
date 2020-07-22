@@ -44,7 +44,8 @@
 }
 
 .menuContainer--mainMenu .styledLink{
-    color: #fff;
+    color: #9b9b9b;
+    font-size: 13px;
 }
 
 .menuItem--racksMenu:hover, .menuItem--childrenMenu:hover, .menuItem--backpackMenu:hover{
@@ -53,6 +54,42 @@
 
 .menuItem--lastItemMobile{
     padding-bottom: 100px;
+}
+
+.menuContainer--mainMenu .styledLinkContainer{
+    border-right: 1px solid #d7d7d7;
+    padding: 10px;
+    position: relative;
+}
+
+.menuContainer--mainMenu .styledLinkContainer{
+    border-right: 1px solid #d7d7d7;
+    padding: 10px;
+    position: relative;
+}
+
+.menuContainer--mainMenu .styledLinkContent:hover{
+    color: #275580;
+}
+
+.menuContainerNav--mainMenu{
+    margin: 0px auto;
+}
+
+.menuItem--searchIcon:hover , .menuItem--faqItem{
+    cursor: pointer
+}
+
+.menuContainer--mainMenu .styledLinkContainer::before{
+    content: "";
+    background: url(https://clinrio.vteximg.com.br/arquivos/medicIcon.png);
+    position: absolute;
+    left: -30px;
+    top: 0px;
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-repeat: no-repeat;
 }
 
 

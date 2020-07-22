@@ -5,15 +5,35 @@
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       //"flex-layout.row#deals",
-      "flex-layout.row#miniImages",
+      "flex-layout.row#infoImages",
       "flex-layout.row#mediumImages",
-      "flex-layout.row#slideImages",
+      //"flex-layout.row#slideImages",
       "flex-layout.row#shelfOne",
       "flex-layout.row#shelfTwo",
+      "flex-layout.row#bottomImages",
       "newsletter",
-      "flex-layout.row#qualityImage",
       "rich-text#whatsapp"
     ]
+  },
+  "flex-layout.row#infoImages":{
+    "children":[
+      "image#bottomImage"
+    ]
+  },
+  "image#bottomImage":{
+    "props":{
+      "src": "https://clinrio.vteximg.com.br/arquivos/banner_info.jpg"
+    }
+  },
+  "flex-layout.row#bottomImages":{
+    "children":[
+      "image#bottomMainImage"
+    ]
+  },
+  "image#bottomMainImage":{
+    "props":{
+      "src": "https://clinrio.vteximg.com.br/arquivos/bottomImage.jpg"
+    }
   },
   "rich-text#whatsapp": {
     "props": {
