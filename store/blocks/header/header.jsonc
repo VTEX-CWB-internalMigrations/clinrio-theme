@@ -128,7 +128,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "/assets/clinrio-logo.png",
+      "url": "https://clinrio.vteximg.com.br/arquivos/clinrio-logo.png",
       "width": "180"
     }
   },
