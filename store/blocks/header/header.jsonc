@@ -19,7 +19,6 @@
   },
   "header-row#1-desktop": {
     "children": [
-      "header-spacer",
       "logo#desktop",
       "header-spacer",
       "header-spacer",
