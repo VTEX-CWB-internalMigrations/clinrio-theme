@@ -44,7 +44,8 @@
     "vtex.order-placed": "1.x",
     "vtex.tab-layout": "0.x",
     "vtex.sandbox": "0.x",
-    "vtex.store-image": "0.x"
+    "vtex.store-image": "0.x",
+    "vtex.search": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

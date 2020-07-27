@@ -25,8 +25,7 @@
       "login",
       "vtex.menu@2.x:menu#searchBar",
       "vtex.menu@2.x:menu#faqMenu",
-      "minicart",
-      "header-spacer"
+      "minicart"
     ],
     "props": {
       "sticky": true,
