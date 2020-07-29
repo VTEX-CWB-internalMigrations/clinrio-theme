@@ -30,6 +30,7 @@
       "vtex.menu@2.x:submenu#mainSubmenu"
     ],
     "props": {
+      "blockClass": "allDepartments",
       "id": "menu-item-category-allSubmenu",
       "type": "custom",
       "iconId": null,
@@ -48,6 +49,7 @@
       "vtex.menu@2.x:submenu#mainSubmenu"
     ],
     "props": {
+      "blockClass": "esterilizacao",
       "id": "menu-item-category-sterilization",
       "type": "custom",
       "iconId": null,
@@ -66,6 +68,7 @@
       "vtex.menu@2.x:submenu#mainSubmenu"
     ],
     "props": {
+      "blockClass": "cardiologia",
       "id": "menu-item-category-cardiology",
       "type": "custom",
       "iconId": null,
@@ -84,6 +87,7 @@
       "vtex.menu@2.x:submenu#mainSubmenu"
     ],
     "props": {
+      "blockClass": "equipamentos",
       "id": "menu-item-category-equipments",
       "type": "custom",
       "iconId": null,
@@ -102,6 +106,7 @@
       "vtex.menu@2.x:submenu#mainSubmenu"
     ],
     "props": {
+      "blockClass": "ultrassom",
       "id": "menu-item-category-ultrassom",
       "type": "custom",
       "iconId": null,
@@ -120,6 +125,7 @@
       "vtex.menu@2.x:submenu#mainSubmenu"
     ],
     "props": {
+      "blockClass": "cadeiraderodas",
       "id": "menu-item-category-cadeiras",
       "type": "custom",
       "iconId": null,
@@ -138,6 +144,7 @@
       "vtex.menu@2.x:submenu#mainSubmenu"
     ],
     "props": {
+      "blockClass": "radiologia",
       "id": "menu-item-category-radiology",
       "type": "custom",
       "iconId": null,
@@ -156,6 +163,7 @@
       "vtex.menu@2.x:submenu#mainSubmenu"
     ],
     "props": {
+      "blockClass": "descartaveis",
       "id": "menu-item-category-descartáveis",
       "type": "custom",
       "iconId": null,
