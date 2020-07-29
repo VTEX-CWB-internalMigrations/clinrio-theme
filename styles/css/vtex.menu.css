@@ -92,6 +92,110 @@
     background-repeat: no-repeat;
 }
 
+.menuItem--esterilizacao .styledLinkContainer--esterilizacao::before{
+    content: "";
+    background: url(https://clinrio.vteximg.com.br/arquivos/menu-icon-1.png);
+    position: absolute;
+    left: -30px;
+    top: 0;
+    width: 40px;
+    height: 30px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 40px;
+}
+
+.menuItem--cardiologia .styledLinkContainer--cardiologia::before{
+    content: "";
+    background: url(https://clinrio.vteximg.com.br/arquivos/menu-icon-2.png);
+    position: absolute;
+    left: -30px;
+    top: 0;
+    width: 40px;
+    height: 30px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 35px;
+}
+
+.menuItem--equipamentos .styledLinkContainer--equipamentos::before{
+    content: "";
+    background: url(https://clinrio.vteximg.com.br/arquivos/menu-icon-3.png);
+    position: absolute;
+    left: -30px;
+    top: 0;
+    width: 40px;
+    height: 30px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 35px;
+}
+
+.menuItem--equipamentos .styledLinkContainer--equipamentos::before{
+    content: "";
+    background: url(https://clinrio.vteximg.com.br/arquivos/menu-icon-3.png);
+    position: absolute;
+    left: -30px;
+    top: 0;
+    width: 40px;
+    height: 30px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 35px;
+}
+
+.menuItem--ultrassom .styledLinkContainer--ultrassom::before{
+    content: "";
+    background: url(https://clinrio.vteximg.com.br/arquivos/menu-icon-4.png);
+    position: absolute;
+    left: -30px;
+    top: 0;
+    width: 40px;
+    height: 30px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 35px;
+}
+
+.menuItem--cadeirarodas .styledLinkContainer--cadeirarodas::before{
+    content: "";
+    background: url(https://clinrio.vteximg.com.br/arquivos/menu-icon-4.png);
+    position: absolute;
+    left: -30px;
+    top: 0;
+    width: 40px;
+    height: 30px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 35px;
+}
+
+.menuItem--radiologia .styledLinkContainer--radiologia::before{
+    content: "";
+    background: url(https://clinrio.vteximg.com.br/arquivos/menu-icon-6.png);
+    position: absolute;
+    left: -30px;
+    top: 0;
+    width: 40px;
+    height: 30px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 35px;
+}
+
+.menuItem--descartaveis .styledLinkContainer--descartaveisradiologia::before{
+    content: "";
+    background: url(https://clinrio.vteximg.com.br/arquivos/menu-icon-7.png);
+    position: absolute;
+    left: -30px;
+    top: 0;
+    width: 40px;
+    height: 30px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 35px;
+}
+
 
 @media only screen and (min-width: 640px) {
     .submenuContainer{
