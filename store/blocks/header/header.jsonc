@@ -22,6 +22,7 @@
       "logo#desktop",
       "header-spacer",
       "header-spacer",
+      "locale-switcher",
       "login",
       "vtex.menu@2.x:menu#searchBar",
       "vtex.menu@2.x:menu#faqMenu",
