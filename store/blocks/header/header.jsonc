@@ -22,14 +22,12 @@
       "logo#desktop",
       "header-spacer",
       "header-spacer",
-      "locale-switcher",
       "login",
       "vtex.menu@2.x:menu#searchBar",
       "vtex.menu@2.x:menu#faqMenu",
       "minicart"
     ],
     "props": {
-      "sticky": true,
       "blockClass": "main-header"
     }
   },
@@ -38,6 +36,7 @@
       "vtex.menu@2.x:menu#category-menu"
     ],
     "props":{
+      "sticky": true,
       "blockClass": "menu-row"
     }
   },

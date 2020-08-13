@@ -196,6 +196,22 @@
     background-size: 35px;
 }
 
+.menuContainerNav--mainMenu .menuContainer--mainMenu .styledLinkContainer--submenu-main-class::before{
+    content: "";
+    background: none;
+    position: absolute;
+    left: -30px;
+    top: 0;
+    width: 0px;
+    height: 0px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 0px;
+}
+
+.menuContainerNav--mainMenu .menuContainer--mainMenu .styledLinkContainer--submenu-main-class{
+    border-right: none;
+}
 
 @media only screen and (min-width: 640px) {
     .submenuContainer{

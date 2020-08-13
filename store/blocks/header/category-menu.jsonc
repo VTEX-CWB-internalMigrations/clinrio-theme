@@ -22,7 +22,8 @@
   },
   "vtex.menu@2.x:menu#submenuMenu":{
     "props":{
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "submenu-main-class"
     }
   },
   "menu-item#allDepartments":{
