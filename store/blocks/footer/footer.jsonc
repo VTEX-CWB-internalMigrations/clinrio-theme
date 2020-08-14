@@ -29,13 +29,19 @@
   },
   "flex-layout.col#mainFooter1": {
     "children": [
-      "rich-text#thuleMain"
+      "rich-text#thuleMain",
+      "vtex.menu@2.x:menu#institutional"
     ]
   },
   "rich-text#thuleMain": {
     "props": {
       "text": "seu texto aqui",
       "blockClass": "whiteLetter"
+    }
+  },
+  "vtex.menu@2.x:menu#institutional":{
+    "props":{
+      "orientation": "vertical"
     }
   },
   "flex-layout.col#mainFooter2": {
