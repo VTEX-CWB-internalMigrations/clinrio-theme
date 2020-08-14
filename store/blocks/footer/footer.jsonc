@@ -30,7 +30,7 @@
   "flex-layout.col#mainFooter1": {
     "children": [
       "rich-text#thuleMain",
-      "vtex.menu@2.x:menu#institutional"
+      "vtex.menu@2.x:menu#institutionalFooter"
     ]
   },
   "rich-text#thuleMain": {
@@ -39,7 +39,7 @@
       "blockClass": "whiteLetter"
     }
   },
-  "vtex.menu@2.x:menu#institutional":{
+  "vtex.menu@2.x:menu#institutionalFooter":{
     "props":{
       "orientation": "vertical"
     }
