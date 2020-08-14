@@ -31,7 +31,10 @@
     "children": [
       "rich-text#thuleMain",
       "vtex.menu@2.x:menu#institutionalFooter"
-    ]
+    ],
+    "props": {
+      "blockClass": "footer-col-divide"
+    }
   },
   "rich-text#thuleMain": {
     "props": {
@@ -41,14 +44,18 @@
   },
   "vtex.menu@2.x:menu#institutionalFooter":{
     "props":{
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "institutional-texts"
     }
   },
   "flex-layout.col#mainFooter2": {
     "children": [
       "rich-text#paymentForm",
       "image#paymentAccepted"
-    ]
+    ],
+    "props": {
+      "blockClass": "footer-col-divide"
+    }
   },
   "rich-text#paymentForm": {
     "props": {
@@ -65,7 +72,10 @@
     "children": [
       "rich-text#contact",
       "social-networks"
-    ]
+    ],
+    "props": {
+      "blockClass": "footer-col-divide"
+    }
   },
   "rich-text#contact": {
     "props": {

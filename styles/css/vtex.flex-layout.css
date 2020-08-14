@@ -3,6 +3,10 @@
   padding: 14px 0px;
 }
 
+.flexColChild--footer-col-divide:first-child{
+  height: auto !important;
+}
+
 .flexRow--deals .stretchChildrenWidth {
   align-items: center;
 }
