@@ -19,6 +19,12 @@
 .productNameContainer{
     display: block;
     height: 35px;
+    text-align: left;
+}
+
+.description{
+    text-align: left;
+    padding: 0px 10px;
 }
 
 .imageNormal{
@@ -27,4 +33,22 @@
 
 .price_sellingPrice{
     font-weight: 700;
+}
+
+.buyButtonContainer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.sellingPriceContainer{
+    text-align: left;
+}
+
+.installmentContainer{
+    text-align: left;
+}
+
+.listPriceContainer{
+    text-align: left;
 }
