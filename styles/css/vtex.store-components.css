@@ -118,6 +118,16 @@
   display: block;
 }
 
+.productDescriptionTitle{
+  display: none;
+}
+
+.productDescriptionContainer{
+  margin-bottom: 75px;
+  padding: 20px 15px;
+  border-top: 3px solid #e5e5e5;
+}
+
 @media only screen and (min-width: 640px) {
 
 
