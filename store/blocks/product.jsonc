@@ -168,10 +168,10 @@
     },
     "children": [
       "product-name",
+      "product-identifier.product",
+      "product-separator",
       //"product-rating-summary",
       "product-price#product-details",
-      "product-separator",
-      "product-identifier.product",
       "sku-selector",
       "product-quantity",
       "product-assembly-options",
