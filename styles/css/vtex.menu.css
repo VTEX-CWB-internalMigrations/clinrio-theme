@@ -44,7 +44,7 @@
 }
 
 .menuContainer--mainMenu .styledLink{
-    color: #9b9b9b;
+    color: #ffffff;
     font-size: 13px;
 }
 
@@ -82,7 +82,7 @@
 
 .menuContainer--mainMenu .styledLinkContainer::before{
     content: "";
-    background: url(https://clinrio.vteximg.com.br/arquivos/medicIcon.png);
+    background: url(https://clinrio.vteximg.com.br/arquivos/one_icon.png);
     position: absolute;
     left: -30px;
     top: 0px;
@@ -90,11 +90,12 @@
     height: 30px;
     display: block;
     background-repeat: no-repeat;
+    background-size: 36px;
 }
 
 .menuItem--esterilizacao .styledLinkContainer--esterilizacao::before{
     content: "";
-    background: url(https://clinrio.vteximg.com.br/arquivos/menu-icon-1.png);
+    background: url(https://clinrio.vteximg.com.br/arquivos/two_icon.png);
     position: absolute;
     left: -30px;
     top: 0;
@@ -107,7 +108,7 @@
 
 .menuItem--cardiologia .styledLinkContainer--cardiologia::before{
     content: "";
-    background: url(https://clinrio.vteximg.com.br/arquivos/menu-icon-2.png);
+    background: url(https://clinrio.vteximg.com.br/arquivos/three_icon.png);
     position: absolute;
     left: -30px;
     top: 0;
@@ -120,20 +121,7 @@
 
 .menuItem--equipamentos .styledLinkContainer--equipamentos::before{
     content: "";
-    background: url(https://clinrio.vteximg.com.br/arquivos/menu-icon-3.png);
-    position: absolute;
-    left: -30px;
-    top: 0;
-    width: 40px;
-    height: 30px;
-    display: block;
-    background-repeat: no-repeat;
-    background-size: 35px;
-}
-
-.menuItem--equipamentos .styledLinkContainer--equipamentos::before{
-    content: "";
-    background: url(https://clinrio.vteximg.com.br/arquivos/menu-icon-3.png);
+    background: url(https://clinrio.vteximg.com.br/arquivos/four_icon.png);
     position: absolute;
     left: -30px;
     top: 0;
@@ -146,7 +134,7 @@
 
 .menuItem--ultrassom .styledLinkContainer--ultrassom::before{
     content: "";
-    background: url(https://clinrio.vteximg.com.br/arquivos/menu-icon-4.png);
+    background: url(https://clinrio.vteximg.com.br/arquivos/five_icon.png);
     position: absolute;
     left: -30px;
     top: 0;
@@ -159,7 +147,7 @@
 
 .menuItem--cadeirarodas .styledLinkContainer--cadeirarodas::before{
     content: "";
-    background: url(https://clinrio.vteximg.com.br/arquivos/menu-icon-4.png);
+    background: url(https://clinrio.vteximg.com.br/arquivos/six_icon.png);
     position: absolute;
     left: -30px;
     top: 0;
@@ -172,7 +160,7 @@
 
 .menuItem--radiologia .styledLinkContainer--radiologia::before{
     content: "";
-    background: url(https://clinrio.vteximg.com.br/arquivos/menu-icon-6.png);
+    background: url(https://clinrio.vteximg.com.br/arquivos/seven_icon.png);
     position: absolute;
     left: -30px;
     top: 0;
@@ -185,7 +173,7 @@
 
 .menuItem--descartaveis .styledLinkContainer--descartaveisradiologia::before{
     content: "";
-    background: url(https://clinrio.vteximg.com.br/arquivos/menu-icon-7.png);
+    background: url(https://clinrio.vteximg.com.br/arquivos/eigth_icon.png);
     position: absolute;
     left: -30px;
     top: 0;
@@ -228,6 +216,14 @@
 
 .styledLinkContent--institutional-texts{
     font-size: 15px;
+}
+
+.menuContainer--mainMenu .menuItem--submenu-main-class .styledLink--submenu-main-class{
+    color: #000000 !important;
+}
+
+.menuContainer--mainMenu .menuItem--submenu-main-class .styledLink--submenu-main-class:hover{
+    color: #000000;
 }
 
 @media only screen and (min-width: 640px) {
