@@ -160,7 +160,7 @@
 
 .menuItem--radiologia .styledLinkContainer--radiologia::before{
     content: "";
-    background: url(https://clinrio.vteximg.com.br/arquivos/seven_icon.png);
+    background: url(https://clinrio.vteximg.com.br/arquivos/seven_new_icon.png);
     position: absolute;
     left: -30px;
     top: 0;
@@ -173,7 +173,7 @@
 
 .menuItem--descartaveis .styledLinkContainer--descartaveisradiologia::before{
     content: "";
-    background: url(https://clinrio.vteximg.com.br/arquivos/eigth_icon.png);
+    background: url(https://clinrio.vteximg.com.br/arquivos/eigth_new_icon.png);
     position: absolute;
     left: -30px;
     top: 0;
