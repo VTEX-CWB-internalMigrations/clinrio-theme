@@ -14,7 +14,7 @@
 }
 
 .headerRowContainer--main-header-mobile , .headerRowContentContainer--main-header-mobile{
-  background-color: #000;
+  background-color: #fff;
 }
 
 .headerRowContentContainer--menu-row{
@@ -24,5 +24,9 @@
 
 .headerRowBackground--menu-row{
   background: #275580;
+}
+
+.headerRowContentContainer--main-header-mobile{
+  background-color: #fff;
 }
 
