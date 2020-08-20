@@ -226,6 +226,197 @@
     color: #000000;
 }
 
+.menuContainerNav--menu-mobile .menuItem {
+    background: #275580;
+    padding: 7px 25px;
+    margin: 1px 0px;
+    position: relative;
+}
+
+.menuContainerNav--menu-mobile .styledLinkContent{
+    color: #fff;
+}
+
+.menuItem--mobile-one::before{
+    content: "";
+    background: url(https://clinrio.vteximg.com.br/arquivos/mobile_1.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    left: 5px;
+}
+
+.menuItem--mobile-two::before{
+    content: "";
+    background: url(https://clinrio.vteximg.com.br/arquivos/mobile_2.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    left: 5px;
+}
+
+.menuItem--mobile-three::before{
+    content: "";
+    background: url(https://clinrio.vteximg.com.br/arquivos/mobile_3.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    left: 5px;
+}
+
+.menuItem--mobile-four::before{
+    content: "";
+    background: url(https://clinrio.vteximg.com.br/arquivos/mobile_4.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    left: 5px;
+}
+
+.menuItem--mobile-five::before{
+    content: "";
+    background: url(https://clinrio.vteximg.com.br/arquivos/mobile_6.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    left: 5px;
+}
+
+.menuItem--mobile-six::before{
+    content: "";
+    background: url(https://clinrio.vteximg.com.br/arquivos/mobile_7.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    left: 5px;
+}
+
+.menuItem--mobile-seven::before{
+    content: "";
+    background: url(https://clinrio.vteximg.com.br/arquivos/mobile_8.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    left: 5px;
+}
+
+.menuItem--mobile-eigth::before{
+    content: "";
+    background: url(https://clinrio.vteximg.com.br/arquivos/mobile_9.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    left: 5px;
+}
+
+.menuItem--mobile-nine::before{
+    content: "";
+    background: url(https://clinrio.vteximg.com.br/arquivos/mobile_10.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    left: 5px;
+}
+
+.menuItem--mobile-ten::before{
+    content: "";
+    background: url(https://clinrio.vteximg.com.br/arquivos/mobile_11.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    left: 5px;
+}
+
+.menuItem--mobile-eleven::before{
+    content: "";
+    background: url(https://clinrio.vteximg.com.br/arquivos/mobile_12.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    left: 5px;
+}
+
+.menuItem--mobile-twelve::before{
+    content: "";
+    background: url(https://clinrio.vteximg.com.br/arquivos/mobile_13.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    left: 5px;
+}
+
+.menuItem--mobile-thirteen::before{
+    content: "";
+    background: url(https://clinrio.vteximg.com.br/arquivos/mobile_14.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    left: 5px;
+}
+
+.menuItem--mobile-fourteen::before{
+    content: "";
+    background: url(https://clinrio.vteximg.com.br/arquivos/mobile_15.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    left: 5px;
+}
+
+.menuItem--mobile-fifteen::before{
+    content: "";
+    background: url(https://clinrio.vteximg.com.br/arquivos/mobile_16.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    left: 5px;
+}
+
 @media only screen and (min-width: 640px) {
     .submenuContainer{
         left: 10%;

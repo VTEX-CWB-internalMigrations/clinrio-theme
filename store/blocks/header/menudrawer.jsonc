@@ -11,16 +11,277 @@
     },
     "flex-layout.col#drawer": {
         "children": [
-            "vtex.menu@2.x:menu#drawer-menu"
+            "vtex.menu@2.x:menu#drawer-menu-mobile"
 
         ],
         "props": {
             "blockClass": "flexDrawer"
         }
     },
-    "vtex.menu@2.x:menu#drawer-menu":{
+    "vtex.menu@2.x:menu#drawer-menu-mobile":{
+        "children":[
+            "menu-item#esterilizacao",
+            "menu-item#cardiologia",
+            "menu-item#equipamentos",
+            "menu-item#ultrassonografia",
+            "menu-item#cadeiras",
+
+            "menu-item#radiologia",
+            "menu-item#descartaveis",
+            "menu-item#eletrodo",
+            "menu-item#ortopedia",
+            "menu-item#pediatria",
+
+            "menu-item#promocao",
+            "menu-item#gel",
+            "menu-item#ginecologia",
+            "menu-item#odontologia",
+            "menu-item#primeiros"
+        ],
         "props":{
-            "orientation": "vertical"
+            "orientation": "vertical",
+            "blockClass": "menu-mobile"
+        }
+    },
+
+    "menu-item#esterilizacao":{
+        "props":{
+            "blockClass": "mobile-one",
+            "id": "menu-item-esterilizacao",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/esterilizacao",
+              "noFollow": false,
+              "tagTitle": "Esterilização",
+              "text": "Esterilização"
+            }
+        }
+    },
+    "menu-item#cardiologia":{
+        "props":{
+            "blockClass": "mobile-two",
+            "id": "menu-item-cardiologia",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/cardiologia",
+              "noFollow": false,
+              "tagTitle": "Cardiologia",
+              "text": "Cardiologia"
+            }
+        }
+    },
+    "menu-item#equipamentos":{
+        "props":{
+            "blockClass": "mobile-three",
+            "id": "menu-item-equipamentos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/equipamentos",
+              "noFollow": false,
+              "tagTitle": "Equipamentos",
+              "text": "Equipamentos"
+            }
+        }
+    },
+    "menu-item#ultrassonografia":{
+        "props":{
+            "blockClass": "mobile-four",
+            "id": "menu-item-ultrassonografia",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/ultrassonografia",
+              "noFollow": false,
+              "tagTitle": "Ultrassonografia",
+              "text": "Ultrassonografia"
+            }
+        }
+    },
+    "menu-item#cadeiras":{
+        "props":{
+            "blockClass": "mobile-five",
+            "id": "menu-item-cadeiras",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/cadeira-de-rodas",
+              "noFollow": false,
+              "tagTitle": "Cadeira de Rodas",
+              "text": "Cadeira de Rodas"
+            }
+        }
+    },
+    "menu-item#radiologia":{
+        "props":{
+            "blockClass": "mobile-six",
+            "id": "menu-item-radiologia",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/radiologia",
+              "noFollow": false,
+              "tagTitle": "Radiologia",
+              "text": "Radiologia"
+            }
+        }
+    },
+    "menu-item#descartaveis":{
+        "props":{
+            "blockClass": "mobile-seven",
+            "id": "menu-item-descartaveis",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/descartaveis",
+              "noFollow": false,
+              "tagTitle": "Descartáveis",
+              "text": "Descartáveis"
+            }
+        }
+    },
+    "menu-item#eletrodo":{
+        "props":{
+            "blockClass": "mobile-eigth",
+            "id": "menu-item-eletrodo",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/eletrodo",
+              "noFollow": false,
+              "tagTitle": "Eletrodo",
+              "text": "Eletrodo"
+            }
+        }
+    },
+    "menu-item#ortopedia":{
+        "props":{
+            "blockClass": "mobile-nine",
+            "id": "menu-item-ortopedia",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/ortopedia",
+              "noFollow": false,
+              "tagTitle": "Ortopedia",
+              "text": "Ortopedia"
+            }
+        }
+    },
+    "menu-item#pediatria":{
+        "props":{
+            "blockClass": "mobile-ten",
+            "id": "menu-item-pediatria",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/pediatria",
+              "noFollow": false,
+              "tagTitle": "Pediatria",
+              "text": "Pediatria"
+            }
+        }
+    },
+    "menu-item#promocao":{
+        "props":{
+            "blockClass": "mobile-eleven",
+            "id": "menu-item-promocao",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/promocao",
+              "noFollow": false,
+              "tagTitle": "Promoção",
+              "text": "Promoção"
+            }
+        }
+    },
+    "menu-item#gel":{
+        "props":{
+            "blockClass": "mobile-twelve",
+            "id": "menu-item-gel",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/gel",
+              "noFollow": false,
+              "tagTitle": "Gel",
+              "text": "Gel"
+            }
+        }
+    },
+    "menu-item#ginecologia":{
+        "props":{
+            "blockClass": "mobile-thirteen",
+            "id": "menu-item-ginecologia",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/ginecologia",
+              "noFollow": false,
+              "tagTitle": "ginecologia",
+              "text": "ginecologia"
+            }
+        }
+    },
+    "menu-item#odontologia":{
+        "props":{
+            "blockClass": "mobile-fourteen",
+            "id": "menu-item-odontologia",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/odontologia",
+              "noFollow": false,
+              "tagTitle": "Odontologia",
+              "text": "Odontologia"
+            }
+        }
+    },
+    "menu-item#primeiros":{
+        "props":{
+            "blockClass": "mobile-fifteen",
+            "id": "menu-item-primeiros",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/primeiros-socorros",
+              "noFollow": false,
+              "tagTitle": "Primeiros Socorros",
+              "text": "Primeiros Socorros"
+            }
         }
     }
 }
