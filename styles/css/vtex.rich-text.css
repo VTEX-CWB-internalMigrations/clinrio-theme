@@ -11,7 +11,9 @@
 .container--whiteLetterRights .paragraph{
   color: #fff;
   display: flex;
-  align-items: center
+  align-items: center;
+  width: 550px
+
 }
 .container--deals .paragraph {
   margin: 0;

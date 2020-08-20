@@ -7,7 +7,7 @@
       //"flex-layout.row#deals",
       "flex-layout.row#infoImages",
       "flex-layout.row#mediumImages",
-      //"flex-layout.row#slideImages",
+      "flex-layout.row#slideImages",
       "flex-layout.row#shelfOne",
       "flex-layout.row#shelfTwo",
       "flex-layout.row#bottomImages",

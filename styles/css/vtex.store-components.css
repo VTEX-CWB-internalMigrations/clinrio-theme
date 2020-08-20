@@ -103,6 +103,9 @@
   background-color: #275580;
   margin: 0 auto;
   padding: 20px;
+  margin: 0px;
+  width: 100%;
+  max-width: unset;
 }
 
 .shippingContainer :global(.vtex-input__label){
