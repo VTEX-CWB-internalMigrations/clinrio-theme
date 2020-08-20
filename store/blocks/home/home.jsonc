@@ -131,8 +131,7 @@
   },
   "slider-layout#left": {
     "children": [
-      "image#leftOne",
-      "image#mleftTwo"
+      "image#leftOne"
     ],
     "props": {
       "itemsPerPage": {
@@ -142,7 +141,7 @@
       },
       "autoplay": false,
       "showNavigationArrows": "never",
-      "showPaginationDots": "always"
+      "showPaginationDots": "never"
     }
   },
   "image#leftOne": {
@@ -157,8 +156,7 @@
   },
   "slider-layout#right": {
     "children": [
-      "image#rightOne",
-      "image#mrightTwo"
+      "image#rightOne"
     ],
     "props": {
       "itemsPerPage": {
@@ -168,7 +166,7 @@
       },
       "autoplay": false,
       "showNavigationArrows": "never",
-      "showPaginationDots": "always"
+      "showPaginationDots": "never"
     }
   },
   "image#rightOne": {
