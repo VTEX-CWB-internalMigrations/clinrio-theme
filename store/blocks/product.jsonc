@@ -201,6 +201,12 @@
       "buy-button"
     ]
   },
+  "buy-button":{
+    "props":{
+      "shouldOpenMinicart": true,
+      "shouldAddToCart": true
+    }
+  },
   "share#default": {
     "props": {
       "social": {
