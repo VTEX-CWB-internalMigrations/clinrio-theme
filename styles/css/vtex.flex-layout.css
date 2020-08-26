@@ -16,6 +16,11 @@
   align-items: center;
 }
 
+.flexRowContent--medImage{
+  display: flex;
+  justify-content: space-between;
+}
+
 .flexRow--deals .flexCol {
   align-items: center;
 }

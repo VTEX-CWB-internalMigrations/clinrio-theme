@@ -64,6 +64,13 @@
       "product-summary-buy-button"
     ]
   },
+  "product-summary-buy-button":{
+    "props":{
+      "shouldOpenMinicart": true,
+      "shouldAddToCart": true,
+      "isOneClickBuy": true
+    }
+  },
   "stack-layout#prodsum": {
     "children": [
       "product-summary-image",

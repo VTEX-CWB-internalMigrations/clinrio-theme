@@ -13,6 +13,11 @@
   padding: 0px;
 }
 
+.imageElement--info-images{
+  margin: 0px auto;
+  display: block;
+}
+
 .newsletter {
   background-color: #000;
   max-width: 1528px;
