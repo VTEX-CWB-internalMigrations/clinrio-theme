@@ -7,6 +7,12 @@
   height: auto !important;
 }
 
+.flexCol--institutional-col{
+  max-width: 900px;
+  margin: 30px 0px;
+  padding-bottom: 30px;
+}
+
 .flexRowContent--medImage{
   display: flex;
   justify-content: space-between;
