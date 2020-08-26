@@ -7,6 +7,11 @@
   height: auto !important;
 }
 
+.flexRowContent--medImage{
+  display: flex;
+  justify-content: space-between;
+}
+
 .flexRow--deals .stretchChildrenWidth {
   align-items: center;
 }

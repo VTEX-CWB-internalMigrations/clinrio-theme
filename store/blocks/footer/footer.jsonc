@@ -15,9 +15,7 @@
     "children": [
       "footer-spacer",
       "flex-layout.col#mainFooter1",
-      "flex-layout.col#middleSpacer",
       "flex-layout.col#mainFooter2",
-      "flex-layout.col#middleSpacer",
       "flex-layout.col#mainFooter3",
       "footer-spacer"
     ],
@@ -51,10 +49,27 @@
   "flex-layout.col#mainFooter2": {
     "children": [
       "rich-text#paymentForm",
-      "image#paymentAccepted"
+      "image#paymentAccepted",
+      "flex-layout.row#stampsImages"
     ],
     "props": {
       "blockClass": "footer-col-divide"
+    }
+  },
+  "flex-layout.row#stampsImages":{
+    "children":[
+      "image#letsEncrypt",
+      "image#ebit"
+    ]
+  },
+  "image#letsEncrypt":{
+    "props":{
+
+    }
+  },
+  "image#ebit":{
+    "props":{
+
     }
   },
   "rich-text#paymentForm": {

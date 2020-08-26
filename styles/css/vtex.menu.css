@@ -80,7 +80,7 @@
     cursor: pointer
 }
 
-.menuContainer--mainMenu .styledLinkContainer::before{
+.menuContainer--mainMenu .menuItem--allDepartments .styledLinkContainer::before{
     content: "";
     background: url(https://clinrio.vteximg.com.br/arquivos/one_icon.png);
     position: absolute;

@@ -7,8 +7,8 @@
       "menu-item#equipments",
       "menu-item#ultrassom",
       "menu-item#cadeiraderodas",
-      "menu-item#radiologia",
-      "menu-item#descartaveis"
+      "menu-item#radiology",
+      "menu-item#descartables"
     ],
     "props": {
       "blockClass": "mainMenu",
@@ -140,7 +140,7 @@
       }
     }
   },
-  "menu-item#radiologia":{
+  "menu-item#radiology":{
     "blocks": [
       "vtex.menu@2.x:submenu#mainSubmenu"
     ],
@@ -159,7 +159,7 @@
       }
     }
   },
-  "menu-item#descartaveis":{
+  "menu-item#descartables":{
     "blocks": [
       "vtex.menu@2.x:submenu#mainSubmenu"
     ],

@@ -88,6 +88,12 @@
   font-size: 17px;
 }
 
+.productDescriptionText , .specificationsTab{
+  color: #000;
+  font-size: 19px;
+  text-align: justify;
+}
+
 .newsletter .inputGroup{
   border-bottom: 0px
 }
@@ -106,6 +112,12 @@
   margin: 0px;
   width: 100%;
   max-width: unset;
+}
+
+.imageElement--image-infos{
+  margin: 0px auto;
+  display: block;
+  width: 80%;
 }
 
 .shippingContainer :global(.vtex-input__label){

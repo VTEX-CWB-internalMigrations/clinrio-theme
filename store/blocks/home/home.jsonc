@@ -22,7 +22,8 @@
   },
   "image#bottomImage":{
     "props":{
-      "src": "https://clinrio.vteximg.com.br/arquivos/banner_info.jpg"
+      "src": "https://clinrio.vteximg.com.br/arquivos/banner_info.jpg",
+      "blockClass": "image-infos"
     }
   },
   "flex-layout.row#bottomImages":{
