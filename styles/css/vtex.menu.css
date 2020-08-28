@@ -199,6 +199,7 @@
 
 .menuContainerNav--mainMenu .menuContainer--mainMenu .styledLinkContainer--submenu-main-class{
     border-right: none;
+    padding: 5px 10px;
 }
 
 .menuItem{

@@ -52,7 +52,6 @@
     "children": [
       "product-summary-name",
       //"product-rating-inline",
-      "product-summary-description",
       "product-summary-space",
       "flex-layout.row#shelfInsideOne"
     ]
