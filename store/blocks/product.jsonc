@@ -172,6 +172,7 @@
       "product-separator",
       //"product-rating-summary",
       "product-price#product-details",
+      "product-spot-price",
       "sku-selector",
       "product-quantity",
       "product-assembly-options",
