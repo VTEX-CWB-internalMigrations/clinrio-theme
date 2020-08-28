@@ -5,6 +5,11 @@
 .profileIcon{
     color: #275580;
 }
+
+.buttonLink :global(.vtex-button__label){
+    padding: 0px;
+}
+
 @media only screen and (min-width: 640px) {
     .container{
         padding-right: 10px;

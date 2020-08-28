@@ -83,7 +83,7 @@
   margin: 1rem 0;
 }
 .logoImage{
-  width: 300px;
+  width: 185px;
 }
 .newsletter .container{
   padding: 20px;
@@ -150,6 +150,9 @@
 
 @media only screen and (min-width: 640px) {
 
+  .logoImage{
+    width: 300px;
+  }
 
   .resultsList{
     max-width: 300px;
