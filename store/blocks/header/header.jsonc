@@ -67,15 +67,9 @@
   },
   "vtex.menu@2.x:menu#faqItens": {
     "children": [
-      "menu-item#teste"
     ],
     "props": {
       "blockClass": "faqItens"
-    }
-  },
-  "menu-item#teste": {
-    "props": {
-      "text": "Test"
     }
   },
   "vtex.menu@2.x:menu#searchBar": {

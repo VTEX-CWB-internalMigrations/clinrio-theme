@@ -83,7 +83,7 @@
   margin: 1rem 0;
 }
 .logoImage{
-  width: 300px;
+  width: 185px;
 }
 .newsletter .container{
   padding: 20px;
@@ -150,12 +150,19 @@
   border-top: 3px solid #e5e5e5;
 }
 
+.productBrand{
+  font-weight: 600;
+}
+
 @media only screen and (min-width: 640px) {
 
   .imageElement--image-infos{
     margin: 0px auto;
     display: block;
     width: 80%;
+  }
+  .logoImage{
+    width: 300px;
   }
 
   .resultsList{
