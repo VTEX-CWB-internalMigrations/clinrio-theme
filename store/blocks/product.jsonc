@@ -171,8 +171,8 @@
       "product-identifier.product",
       "product-separator",
       //"product-rating-summary",
-      "product-price#product-details",
       "product-spot-price",
+      "product-price#product-details",
       "sku-selector",
       "product-quantity",
       "product-assembly-options",
@@ -181,6 +181,11 @@
       "shipping-simulator",
       "share#default"
     ]
+  },
+  "product-spot-price":{
+    "props":{
+      "blockClass": "spot-price"
+    }
   },
   "sku-selector": {
     "props": {

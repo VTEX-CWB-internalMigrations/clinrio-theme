@@ -119,10 +119,12 @@
   max-width: unset;
 }
 
+.sellingPriceValue{
+  padding: 0px;
+}
+
 .imageElement--image-infos{
-  margin: 0px auto;
-  display: block;
-  width: 80%;
+  display: none;
 }
 
 .shippingContainer :global(.vtex-input__label){
@@ -150,6 +152,11 @@
 
 @media only screen and (min-width: 640px) {
 
+  .imageElement--image-infos{
+    margin: 0px auto;
+    display: block;
+    width: 80%;
+  }
 
   .resultsList{
     max-width: 300px;
