@@ -65,6 +65,7 @@
   },
   "search-result-layout.desktop": {
     "children": [
+      "flex-layout.row#imageDepartment",
       "flex-layout.row#searchbread",
       "flex-layout.row#searchtitle",
       "flex-layout.row#result"
@@ -121,6 +122,19 @@
       "width": "grow"
     }
   },
+
+  "flex-layout.row#imageDepartment":{
+    "children":[
+      "image#imageDepartment"
+    ]
+  },
+
+  "image#imageDepartment":{
+    "props":{
+      "src": ""
+    }
+  },
+
   "flex-layout.row#searchinfo": {
     "children": [
       "flex-layout.col#productCount",
