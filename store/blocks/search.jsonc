@@ -131,7 +131,8 @@
 
   "image#imageDepartment":{
     "props":{
-      "src": ""
+      "src": "",
+      "blockClass": "image-main-department"
     }
   },
 

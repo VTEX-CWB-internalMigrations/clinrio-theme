@@ -154,6 +154,14 @@
   font-weight: 600;
 }
 
+.specificationsTabsContainer :global(.vtex-tab__button){
+  height: 75px;
+}
+
+.imageElement--image-main-department{
+  width: 100%;
+}
+
 @media only screen and (min-width: 640px) {
 
   .imageElement--image-infos{
