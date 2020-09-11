@@ -8,7 +8,8 @@
       "menu-item#ultrassom",
       "menu-item#cadeiraderodas",
       "menu-item#radiology",
-      "menu-item#descartables"
+      "menu-item#descartables",
+      "menu-item#offers"
     ],
     "props": {
       "blockClass": "mainMenu",
@@ -177,6 +178,23 @@
           "text": "Descartáveis"
       }
     }
+  },
+  "menu-item#offers":{
+    "props": {
+      "blockClass": "offers",
+      "id": "menu-item-category-offers",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "href": "/ofertas",
+          "noFollow": true,
+          "tagTitle": "Promoção",
+          "text": "Promoção"
+      }
+    }
   }
+  
  
 }
